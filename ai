@@ -1,1 +1,2 @@
 yum -y install nginx
+iptables -t filter -I INPUT -p tcp --dport 81 -j ACCPECT
